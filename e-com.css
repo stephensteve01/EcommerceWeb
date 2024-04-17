@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(193, 209, 223);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    color: white;   
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding-left: 10px;
+    color:white;
+}
+.hero img{
+width: 100%;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: black;
+}
+.gallery1{
+    background-color: black;
+}
+.gallery{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    padding: 30px;
+    background-color: transparent;
+}
+.gallery img{
+    border-radius: 30px;
+}
+.zoom1:hover {
+     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}     
+.zoom1{
+    border-color: black;
+    border-style:none;  
+}
+.gallery2{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    background-color:transparent;
+    padding: 30px;
+}
+.gallery2 img{
+    border-radius: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 209, 223);
+    padding: 10px;
+}
+section p{
+    color: black;
+}
+.about h1{
+    display:flex ;
+    justify-content: center;
+}
+.about img{
+    border-radius: 50px;
+}
+.about p{
+    padding: 5px;
+}
+.service h1{
+    display: flex;
+    justify-content: center;
+}
+.service p{
+    padding: 5px;
+}
+.service img {
+    border-radius: 20px;
+}
+
+.img1{
+display: flex;
+justify-content: center;
+}
+.img1 p{
+    display: flex;
+    justify-content: center;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+}
+.contactlogo h1{
+    display: flex;
+    justify-content: center;
+}
+.contactlogo  p{
+    padding: 5px;
+}
+.contactlog  img {
+    border-radius: 20px;
+}
+.contact{
+    background-color:white;
+    margin-bottom: 4px;
+}
+.cont { 
+    display: flex; 
+}
+.cont a{
+    padding-left:700px;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+}
+.footer p {
+    color: white;  
+}
+.footer{
+    background-color: black;
+}
+

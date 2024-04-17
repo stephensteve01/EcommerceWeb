@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+  }
+.card{
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  margin-top: 70px;
+  position: relative; 
+}
+
+img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px ; 
+}
+.write{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+}
+.write h2 {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.write h1 {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    cursor: pointer;
+}
+.write p{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.star{
+    margin-top: 20px;
+    color: #999;
+}
+.checked{
+    color: gold;
+}
+.footer{
+display: flex;
+background-color: #26199c;
+width: 400px;
+margin-top: 10px;
+height: 50px;
+position: relative;
+}
+.footer p{
+    padding: 20px 156px;
+    font-size:small;
+    color: white;
+    cursor: pointer;
+}
